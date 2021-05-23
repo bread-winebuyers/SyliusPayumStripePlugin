@@ -15,7 +15,8 @@ class Configuration implements ConfigurationInterface
     public function getConfigTreeBuilder()
     {
         $treeBuilder = new TreeBuilder(self::CONFIG_ROOT_NAME);
-        $rootNode = $treeBuilder->getRootNode();
+        // $rootNode = $treeBuilder->getRootNode(); // Not available in symfony 3.4, using below instead
+        $rootNode = $treeBuilder->root('flux_se_sylius_payum_stripe');
         $this->addGlobalSection($rootNode);
 
         return $treeBuilder;
