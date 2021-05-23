@@ -1,5 +1,5 @@
 {
-    "name": "flux-se/sylius-payum-stripe-plugin",
+    "name": "bread-winebuyers/sylius-payum-stripe-plugin",
     "type": "sylius-plugin",
     "keywords": ["sylius", "sylius-plugin", "stripe", "payum", "gateway", "sca", "checkout", "session"],
     "description": "Payum Stripe gateways plugin for Sylius.",
